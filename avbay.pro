@@ -1,11 +1,6 @@
-update=Wed 01 Oct 2014 11:36:57 PM CDT
+update=Wed 01 Oct 2014 11:54:25 PM CDT
 version=1
-last_client=eeschema
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -26,7 +21,6 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -43,6 +37,8 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
+LibName17=XBee
+LibDir=
 [general]
 version=1
 [eeschema]
@@ -87,3 +83,8 @@ LibName30=valves
 LibName31=stm32
 LibName32=STM32-Additional
 LibName33=xbee
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms

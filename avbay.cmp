@@ -1,0 +1,17 @@
+Cmp-Mod V01 Created by CvPcb (2013-jul-07)-stable date = Thu 02 Oct 2014 12:01:37 AM CDT
+
+BeginCmp
+TimeStamp = /542CD87C;
+Reference = U1;
+ValeurCmp = STM32F411RE_LQFP64;
+IdModule  = TQFP_64;
+EndCmp
+
+BeginCmp
+TimeStamp = /542CD8A3;
+Reference = U2;
+ValeurCmp = XBEE;
+IdModule  = XBee-pro;
+EndCmp
+
+EndListe
