@@ -1,4 +1,4 @@
-update=Wed 01 Oct 2014 10:23:55 PM CDT
+update=Wed 01 Oct 2014 11:36:57 PM CDT
 version=1
 last_client=eeschema
 [cvpcb]
@@ -86,3 +86,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=stm32
 LibName32=STM32-Additional
+LibName33=xbee
