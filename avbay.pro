@@ -1,4 +1,4 @@
-update=Wed 01 Oct 2014 11:54:25 PM CDT
+update=Thu 02 Oct 2014 01:04:59 AM CDT
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -29,15 +29,15 @@ LibName5=divers
 LibName6=smd_capacitors
 LibName7=smd_resistors
 LibName8=smd_crystal&oscillator
-LibName9=smd_dil
-LibName10=smd_transistors
-LibName11=libcms
-LibName12=display
-LibName13=led
-LibName14=dip_sockets
-LibName15=pga_sockets
-LibName16=valves
-LibName17=XBee
+LibName9=smd_transistors
+LibName10=libcms
+LibName11=display
+LibName12=led
+LibName13=dip_sockets
+LibName14=pga_sockets
+LibName15=valves
+LibName16=XBee
+LibName17=lqfp
 LibDir=
 [general]
 version=1
