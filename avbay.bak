@@ -167,7 +167,7 @@ Wire Wire Line
 Wire Wire Line
 	8650 4650 8650 4600
 Wire Wire Line
-	6950 4150 7950 4150
+	6900 4150 7950 4150
 Wire Wire Line
 	7950 4150 7950 5050
 Wire Wire Line
