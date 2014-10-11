@@ -1,0 +1,190 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:stm32
+LIBS:STM32-Additional
+LIBS:xbee
+LIBS:avbay-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 3V3 #PWR25
+U 1 1 543769E5
+P 2300 2050
+F 0 "#PWR25" H 2300 2150 40  0001 C CNN
+F 1 "3V3" H 2300 2175 40  0000 C CNN
+F 2 "" H 2300 2050 60  0000 C CNN
+F 3 "" H 2300 2050 60  0000 C CNN
+	1    2300 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM1084IS-3.3/NOPB U3
+U 1 1 543769F9
+P 1650 2200
+F 0 "U3" H 1850 2000 40  0000 C CNN
+F 1 "LM1084IS-3.3/NOPB" H 1350 2400 40  0000 L CNN
+F 2 "TO-263" H 1650 2300 30  0000 C CIN
+F 3 "" H 1650 2200 60  0000 C CNN
+	1    1650 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2150 2450 2150
+Wire Wire Line
+	2300 2150 2300 2050
+Text HLabel 1050 2150 0    60   Input ~ 0
+Vbatt
+Wire Wire Line
+	1250 2150 1050 2150
+$Comp
+L GND #PWR24
+U 1 1 54376AC4
+P 1650 2650
+F 0 "#PWR24" H 1650 2650 30  0001 C CNN
+F 1 "GND" H 1650 2580 30  0001 C CNN
+F 2 "" H 1650 2650 60  0000 C CNN
+F 3 "" H 1650 2650 60  0000 C CNN
+	1    1650 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 2450 1650 2650
+$Comp
+L C C15
+U 1 1 54376AE8
+P 2250 2500
+F 0 "C15" H 2250 2600 40  0000 L CNN
+F 1 "10uF" H 2256 2415 40  0000 L CNN
+F 2 "" H 2288 2350 30  0000 C CNN
+F 3 "" H 2250 2500 60  0000 C CNN
+	1    2250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C14
+U 1 1 54376B1F
+P 1150 2500
+F 0 "C14" H 1150 2600 40  0000 L CNN
+F 1 "10uF" H 1156 2415 40  0000 L CNN
+F 2 "" H 1188 2350 30  0000 C CNN
+F 3 "" H 1150 2500 60  0000 C CNN
+	1    1150 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 1450 1150 2300
+Connection ~ 1150 2150
+Wire Wire Line
+	1150 2700 1450 2700
+Wire Wire Line
+	1450 2700 1450 2550
+Wire Wire Line
+	1450 2550 1850 2550
+Connection ~ 1650 2550
+Wire Wire Line
+	2250 2300 2250 2150
+Connection ~ 2250 2150
+Wire Wire Line
+	2250 2700 1850 2700
+Wire Wire Line
+	1850 2550 1850 2750
+$Comp
+L CONN_01X02 P5
+U 1 1 54376C6D
+P 1450 1500
+F 0 "P5" H 1450 1650 50  0000 C CNN
+F 1 "CONN_01X02" V 1550 1500 50  0000 C CNN
+F 2 "" H 1450 1500 60  0000 C CNN
+F 3 "" H 1450 1500 60  0000 C CNN
+	1    1450 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 1450 1150 1450
+Wire Wire Line
+	1250 1550 1200 1550
+Wire Wire Line
+	1200 1550 1200 1700
+$Comp
+L GND #PWR23
+U 1 1 54376D30
+P 1200 1700
+F 0 "#PWR23" H 1200 1700 30  0001 C CNN
+F 1 "GND" H 1200 1630 30  0001 C CNN
+F 2 "" H 1200 1700 60  0000 C CNN
+F 3 "" H 1200 1700 60  0000 C CNN
+	1    1200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED D?
+U 1 1 543780B4
+P 3050 2550
+F 0 "D?" H 3050 2650 50  0000 C CNN
+F 1 "LED" H 3050 2450 50  0000 C CNN
+F 2 "" H 3050 2550 60  0000 C CNN
+F 3 "" H 3050 2550 60  0000 C CNN
+	1    3050 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5437812D
+P 2700 2150
+F 0 "R?" V 2780 2150 40  0000 C CNN
+F 1 "48" V 2707 2151 40  0000 C CNN
+F 2 "" V 2630 2150 30  0000 C CNN
+F 3 "" H 2700 2150 30  0000 C CNN
+	1    2700 2150
+	0    1    1    0   
+$EndComp
+Connection ~ 2300 2150
+Wire Wire Line
+	2950 2150 3050 2150
+Wire Wire Line
+	3050 2150 3050 2350
+Wire Wire Line
+	1850 2750 3050 2750
+Connection ~ 1850 2700
+$EndSCHEMATC
