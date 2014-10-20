@@ -1,4 +1,4 @@
-update=Thu 02 Oct 2014 01:04:59 AM CDT
+update=10/19/2014 11:31:49 PM
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -38,6 +38,7 @@ LibName14=pga_sockets
 LibName15=valves
 LibName16=XBee
 LibName17=lqfp
+LibName18=Footprints
 LibDir=
 [general]
 version=1
