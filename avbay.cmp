@@ -1,17 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/20/2014 12:01:41 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 10/20/2014 1:02:21 AM
 
 BeginCmp
 TimeStamp = /54449F40;
 Reference = BT1;
 ValeurCmp = BATTERY;
-IdModule  = SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /5430DB9E/5430EA07;
-Reference = C1;
-ValeurCmp = 100nF;
-IdModule  = SM0805;
+IdModule  = LQFP64;
 EndCmp
 
 BeginCmp
@@ -155,34 +148,6 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5430F5CF;
-Reference = JP1;
-ValeurCmp = JUMPER3;
-IdModule  = SIL-3;
-EndCmp
-
-BeginCmp
-TimeStamp = /5430F5DC;
-Reference = JP2;
-ValeurCmp = JUMPER3;
-IdModule  = SIL-3;
-EndCmp
-
-BeginCmp
-TimeStamp = /5430DB9E/5430E1F5;
-Reference = JP3;
-ValeurCmp = JUMPER;
-IdModule  = SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /5430DB9E/5430E27E;
-Reference = JP4;
-ValeurCmp = JUMPER;
-IdModule  = SIL-2;
-EndCmp
-
-BeginCmp
 TimeStamp = /5430DB9E/5430DE18;
 Reference = JP5;
 ValeurCmp = JUMPER;
@@ -306,13 +271,6 @@ TimeStamp = /5430DB9E/542CD87C;
 Reference = U1;
 ValeurCmp = STM32F411RE_LQFP64;
 IdModule  = VQFP64;
-EndCmp
-
-BeginCmp
-TimeStamp = /5430F7FB;
-Reference = U2;
-ValeurCmp = XBEE;
-IdModule  = XBee-pro;
 EndCmp
 
 BeginCmp
