@@ -33,7 +33,7 @@ LIBS:stm32
 LIBS:STM32-Additional
 LIBS:xbee
 LIBS:avbay-cache
-EELAYER 27 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
