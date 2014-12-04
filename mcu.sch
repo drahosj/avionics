@@ -37,9 +37,9 @@ EELAYER 27 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 2 3
+Sheet 2 4
 Title "MCU"
-Date "20 oct 2014"
+Date "4 dec 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -47,17 +47,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L STM32F411RE_LQFP64 U1
-U 1 1 542CD87C
-P 5850 3450
-F 0 "U1" H 5850 3450 60  0000 C CNN
-F 1 "STM32F411RE_LQFP64" H 5850 3550 60  0000 C CNN
-F 2 "" H 5850 3600 60  0000 C CNN
-F 3 "" H 5850 3600 60  0000 C CNN
-	1    5850 3450
-	1    0    0    -1  
-$EndComp
 $Comp
 L 3V3 #PWR08
 U 1 1 542CDA8F
@@ -679,14 +668,6 @@ Text HLabel 7150 4400 2    60   Input ~ 0
 GPIO6
 Text HLabel 7150 4500 2    60   Input ~ 0
 GPIO7
-NoConn ~ 7050 1900
-NoConn ~ 7050 2000
-NoConn ~ 7050 2100
-NoConn ~ 7050 2200
-NoConn ~ 7050 2300
-NoConn ~ 7050 2400
-NoConn ~ 7050 2500
-NoConn ~ 7050 2600
 NoConn ~ 7050 2700
 NoConn ~ 7050 2800
 NoConn ~ 7050 3000
@@ -745,4 +726,31 @@ F 3 "" H 7350 5100 60  0000 C CNN
 	1    7350 5100
 	1    0    0    -1  
 $EndComp
+$Comp
+L STM32F411RE_LQFP64 U1
+U 1 1 542CD87C
+P 5850 3450
+F 0 "U1" H 5850 3450 60  0000 C CNN
+F 1 "STM32F411RE_LQFP64" H 5850 3550 60  0000 C CNN
+F 2 "" H 5850 3600 60  0000 C CNN
+F 3 "" H 5850 3600 60  0000 C CNN
+	1    5850 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 7050 1900 2    60   Input ~ 0
+SENSE1
+Text HLabel 7050 2000 2    60   Input ~ 0
+SENSE2
+Text HLabel 7050 2100 2    60   Input ~ 0
+SENSE3
+Text HLabel 7050 2200 2    60   Input ~ 0
+SENSE4
+Text HLabel 7050 2300 2    60   Input ~ 0
+TRIGGER1
+Text HLabel 7050 2400 2    60   Input ~ 0
+TRIGGER2
+Text HLabel 7050 2500 2    60   Input ~ 0
+TRIGGER3
+Text HLabel 7050 2600 2    60   Input ~ 0
+TRIGGER4
 $EndSCHEMATC

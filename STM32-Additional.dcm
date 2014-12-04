@@ -1,3 +1,15 @@
-EESchema-DOCLIB  Version 2.0  Date: 10/19/2014 11:37:49 PM
+EESchema-DOCLIB  Version 2.0  Date: 12/4/2014 5:07:41 PM
+#
+$CMP AO4842
+D BSS138, 30V Vds, 7.7A Id, Dual N-Channel MOSFET
+K N-Channel MOSFET Logic Level
+F http://aosmd.com/res/data_sheets/AO4842.pdf
+$ENDCMP
+#
+$CMP BSS138DW
+D BSS138, 50V Vds, 0.22A Id, Dual N-Channel MOSFET
+K N-Channel MOSFET Logic Level
+F http://www.diodes.com/datasheets/ds30203.pdf
+$ENDCMP
 #
 #End Doc Library
