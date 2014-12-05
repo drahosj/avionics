@@ -119,17 +119,6 @@ USART_TX
 Text HLabel 3650 3350 0    60   Input ~ 0
 USART_RX
 $Comp
-L CRYSTAL X1
-U 1 1 5430D2CD
-P 3150 1850
-F 0 "X1" H 3150 2000 60  0000 C CNN
-F 1 "32.768K" H 3150 1700 60  0000 C CNN
-F 2 "Crystals:Crystal_HC49-SD_SMD" H 3150 1850 60  0001 C CNN
-F 3 "~" H 3150 1850 60  0000 C CNN
-	1    3150 1850
-	0    1    1    0   
-$EndComp
-$Comp
 L CRYSTAL X2
 U 1 1 5430D2DC
 P 3150 2800
@@ -139,28 +128,6 @@ F 2 "Crystals:Crystal_HC49-U_Vertical" H 3150 2800 60  0001 C CNN
 F 3 "~" H 3150 2800 60  0000 C CNN
 	1    3150 2800
 	0    1    1    0   
-$EndComp
-$Comp
-L C C1
-U 1 1 5430D3C7
-P 2750 1500
-F 0 "C1" H 2750 1600 40  0000 L CNN
-F 1 "10pF" H 2756 1415 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 1350 30  0000 C CNN
-F 3 "~" H 2750 1500 60  0000 C CNN
-	1    2750 1500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C2
-U 1 1 5430D401
-P 2750 2200
-F 0 "C2" H 2750 2300 40  0000 L CNN
-F 1 "10pF" H 2756 2115 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 2050 30  0000 C CNN
-F 3 "~" H 2750 2200 60  0000 C CNN
-	1    2750 2200
-	0    -1   -1   0   
 $EndComp
 $Comp
 L C C3
@@ -479,13 +446,6 @@ Wire Wire Line
 	4150 3350 3650 3350
 Connection ~ 7500 3400
 Wire Wire Line
-	2500 1500 2500 3250
-Wire Wire Line
-	2500 1500 2550 1500
-Wire Wire Line
-	2550 2200 2500 2200
-Connection ~ 2500 2200
-Wire Wire Line
 	2550 2450 2500 2450
 Connection ~ 2500 2450
 Wire Wire Line
@@ -499,20 +459,6 @@ Wire Wire Line
 	3150 2300 3150 2500
 Wire Wire Line
 	3150 2450 2950 2450
-Wire Wire Line
-	2950 2200 4450 2200
-Wire Wire Line
-	3150 2200 3150 2150
-Wire Wire Line
-	3150 1550 3150 1500
-Wire Wire Line
-	2950 1500 3500 1500
-Wire Wire Line
-	4450 2100 3500 2100
-Wire Wire Line
-	3500 2100 3500 1500
-Connection ~ 3150 1500
-Connection ~ 3150 2200
 Wire Wire Line
 	4450 2300 3150 2300
 Connection ~ 3150 2450
@@ -753,4 +699,8 @@ Text HLabel 7050 2500 2    60   Input ~ 0
 TRIGGER3
 Text HLabel 7050 2600 2    60   Input ~ 0
 TRIGGER4
+Wire Wire Line
+	2500 3150 2500 2450
+NoConn ~ 4450 2100
+NoConn ~ 4450 2200
 $EndSCHEMATC
