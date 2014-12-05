@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name LQFP-Local)(type Legacy)(uri ${KIPRJMOD}/lqfp.mod)(options "")(descr ""))
+  (lib (name Ian)(type Legacy)(uri ${KIPRJMOD}/Footprints.mod)(options "")(descr ""))
+)
