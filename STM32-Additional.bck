@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 12/4/2014 5:07:41 PM
+EESchema-DOCLIB  Version 2.0  Date: 12/5/2014 11:01:48 PM
 #
 $CMP AO4842
 D BSS138, 30V Vds, 7.7A Id, Dual N-Channel MOSFET
@@ -10,6 +10,23 @@ $CMP BSS138DW
 D BSS138, 50V Vds, 0.22A Id, Dual N-Channel MOSFET
 K N-Channel MOSFET Logic Level
 F http://www.diodes.com/datasheets/ds30203.pdf
+$ENDCMP
+#
+$CMP TERM_BLOCK_2.54MM_12POS
+D Symbole general de connecteur
+K CONN SCREW
+F http://www.on-shore.com/sites/default/files/manuals/ostvnxxa150.pdf
+$ENDCMP
+#
+$CMP TERM_BLOCK_2.54MM_2POS
+D 2 Position Screw Terminal
+K CONN SCREW
+F http://www.on-shore.com/sites/default/files/manuals/ostvnxxa150.pdf
+$ENDCMP
+#
+$CMP TERM_BLOCK_2.54MM_8POS
+D Symbole general de connecteur
+K CONN
 $ENDCMP
 #
 #End Doc Library
