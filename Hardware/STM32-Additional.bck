@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 12/5/2014 11:44:47 PM
+EESchema-DOCLIB  Version 2.0
 #
 $CMP AO4842
 D BSS138, 30V Vds, 7.7A Id, Dual N-Channel MOSFET
@@ -16,6 +16,24 @@ $CMP DMN2041LSD
 D BSS138, 30V Vds, 7.7A Id, Dual N-Channel MOSFET
 K N-Channel MOSFET Logic Level
 F http://www.diodes.com/datasheets/ds31964.pdf
+$ENDCMP
+#
+$CMP HMC5883L
+D 3-Axis Digital Compass IC
+K COMPASS MAGNET
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf
+$ENDCMP
+#
+$CMP L3G4200D
+D Triple-axis gyroscope module
+K GYRO GYROSCOPE
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf
+$ENDCMP
+#
+$CMP MS5611
+D Barometric Pressure Sensor
+K ALTIMETER BAROMETER PRESSURE ALTITUDE
+F http://www.amsys.info/sheets/amsys.en.ms5611_01ba03.pdf
 $ENDCMP
 #
 $CMP TERM_BLOCK_2.54MM_12POS
