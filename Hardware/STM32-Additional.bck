@@ -48,6 +48,11 @@ K CONN SCREW
 F http://www.on-shore.com/sites/default/files/manuals/ostvnxxa150.pdf
 $ENDCMP
 #
+$CMP TERM_BLOCK_2.54MM_5POS
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
 $CMP TERM_BLOCK_2.54MM_8POS
 D Symbole general de connecteur
 K CONN

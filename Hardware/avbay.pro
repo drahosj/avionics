@@ -1,4 +1,4 @@
-update=1/24/2015 3:40:31 PM
+update=Wed 28 Jan 2015 10:42:45 PM CST
 version=1
 last_client=kicad
 [pcbnew]
@@ -49,7 +49,7 @@ EquName1=devcms
 version=1
 [eeschema]
 version=1
-LibDir=../../kicadlib/Symbols
+LibDir=../../KiCadLib/Symbols
 [eeschema/libraries]
 LibName1=power
 LibName2=device
