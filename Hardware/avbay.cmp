@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 1/24/2015 5:54:20 PM
+Cmp-Mod V01 Created by Cvpcb (20140926 BZR5148)-product   date = Thu 29 Jan 2015 04:41:09 PM CST
 
 BeginCmp
 TimeStamp = /54C487C6;
@@ -361,14 +361,14 @@ BeginCmp
 TimeStamp = /54C4E9F4/54C50732;
 Reference = U5;
 ValeurCmp = HMC5883L;
-IdModule  = Housings_SSOP:SSOP-16_4.4x5.2mm_Pitch0.65mm;
+IdModule  = PQFN:PQFN50P300X300-16N-EXTENDED;
 EndCmp
 
 BeginCmp
 TimeStamp = /54C4E9F4/54C5081F;
 Reference = U6;
 ValeurCmp = L3G4200D;
-IdModule  = Housings_SSOP:SSOP-16_4.4x5.2mm_Pitch0.65mm;
+IdModule  = PQFN:PQFN65P400X400-16N-EXTENDED;
 EndCmp
 
 EndListe

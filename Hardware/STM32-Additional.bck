@@ -21,7 +21,7 @@ $ENDCMP
 $CMP HMC5883L
 D 3-Axis Digital Compass IC
 K COMPASS MAGNET
-F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf
+F http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf
 $ENDCMP
 #
 $CMP L3G4200D
