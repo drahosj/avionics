@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP ADXL375
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADXL375.pdf
+$ENDCMP
+#
 $CMP AO4842
 D BSS138, 30V Vds, 7.7A Id, Dual N-Channel MOSFET
 K N-Channel MOSFET Logic Level

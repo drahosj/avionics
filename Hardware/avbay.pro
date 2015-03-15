@@ -1,4 +1,4 @@
-update=Wed 28 Jan 2015 10:42:45 PM CST
+update=3/15/2015 2:01:13 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -45,8 +45,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../KiCadLib/Symbols
@@ -85,3 +83,5 @@ LibName31=stm32
 LibName32=STM32-Additional
 LibName33=xbee
 LibName34=Passives
+[general]
+version=1

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/14/2015 2:04:00 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/15/2015 3:11:55 PM
 
 BeginCmp
 TimeStamp = /54C487C6;
@@ -15,16 +15,16 @@ IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54C4E9F4/54C425C5;
+TimeStamp = /54375BB6/55057BE8;
 Reference = C3;
-ValeurCmp = .22uF;
+ValeurCmp = 10uF;
 IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54C4E9F4/54C422FF;
+TimeStamp = /54375BB6/55057431;
 Reference = C4;
-ValeurCmp = 4.6uF;
+ValeurCmp = 3.3nF;
 IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
@@ -78,16 +78,16 @@ IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54375BB6/5444778F;
+TimeStamp = /54375BB6/55057347;
 Reference = C12;
-ValeurCmp = 10uF;
+ValeurCmp = .01uF;
 IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54375BB6/5444789E;
+TimeStamp = /54375BB6/550573D5;
 Reference = C13;
-ValeurCmp = 10uF;
+ValeurCmp = 100uF;
 IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
@@ -95,20 +95,6 @@ BeginCmp
 TimeStamp = /54375BB6/54376AE8;
 Reference = C14;
 ValeurCmp = 10uF;
-IdModule  = Capacitors_SMD:C_0805_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /54C4E9F4/54C42D92;
-Reference = C15;
-ValeurCmp = .01uF;
-IdModule  = Capacitors_SMD:C_0805_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /54C4E9F4/54C42D3D;
-Reference = C16;
-ValeurCmp = .47uF;
 IdModule  = Capacitors_SMD:C_0805_HandSoldering;
 EndCmp
 
@@ -141,10 +127,31 @@ IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /55051ECF;
+Reference = D5;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
+EndCmp
+
+BeginCmp
 TimeStamp = /54375BB6/543780B4;
 Reference = D6;
 ValeurCmp = LED;
 IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54375BB6/55057246;
+Reference = D7;
+ValeurCmp = DIODESCH;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /54375BB6/550571B5;
+Reference = D8;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-MELF_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -159,6 +166,13 @@ TimeStamp = /5430DB9E/5430DE18;
 Reference = JP1;
 ValeurCmp = JUMPER;
 IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54375BB6/55057106;
+Reference = L1;
+ValeurCmp = 20uH;
+IdModule  = Capacitors_SMD:C_2220_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -211,6 +225,13 @@ IdModule  = Local:TERM_BLOCK_8;
 EndCmp
 
 BeginCmp
+TimeStamp = /54C4E9F4/55065075;
+Reference = P8;
+ValeurCmp = CONN_01X02;
+IdModule  = Socket_Strips:Socket_Strip_Straight_2x01;
+EndCmp
+
+BeginCmp
 TimeStamp = /5480E61F/5482D60C;
 Reference = Q1;
 ValeurCmp = DMN2041LSD;
@@ -236,6 +257,13 @@ TimeStamp = /5480E61F/54810F77;
 Reference = Q4;
 ValeurCmp = BSS138DW;
 IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SC70-6_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /550518B1;
+Reference = Q5;
+ValeurCmp = NPN;
+IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SOT-23_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -269,13 +297,6 @@ EndCmp
 BeginCmp
 TimeStamp = /5430DB9E/5430DF6F;
 Reference = R5;
-ValeurCmp = 10K;
-IdModule  = Resistors_SMD:R_0805_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /54C4E9F4/54C42F45;
-Reference = R6;
 ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
@@ -316,6 +337,48 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /5480E61F/55049B7A;
+Reference = R12;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5480E61F/55049C07;
+Reference = R13;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5480E61F/55049C95;
+Reference = R14;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /5480E61F/55049DC7;
+Reference = R15;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /550554F1;
+Reference = R16;
+ValeurCmp = 180;
+IdModule  = Resistors_SMD:R_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /55051E92;
+Reference = SP1;
+ValeurCmp = SPEAKER;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /5437AA50;
 Reference = SW2;
 ValeurCmp = SW_PUSH;
@@ -337,16 +400,16 @@ IdModule  = Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /54375BB6/543769F9;
+TimeStamp = /54375BB6/55060157;
 Reference = U2;
-ValeurCmp = LM1084IS-3.3/NOPB;
+ValeurCmp = MIC5209-3.3;
 IdModule  = SMD_Packages:DPAK-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /54375BB6/5444771F;
+TimeStamp = /54375BB6/55057ABF;
 Reference = U3;
-ValeurCmp = LM1084IS-5.0/NOPB;
+ValeurCmp = LT1376IS8-5;
 IdModule  = SMD_Packages:DPAK-3;
 EndCmp
 
@@ -358,17 +421,10 @@ IdModule  = SON:SON125P500X300-8N;
 EndCmp
 
 BeginCmp
-TimeStamp = /54C4E9F4/54C50732;
+TimeStamp = /54C4E9F4/55060D32;
 Reference = U5;
-ValeurCmp = HMC5883L;
+ValeurCmp = ADXL375;
 IdModule  = PQFN:PQFN50P300X300-16N-EXTENDED;
-EndCmp
-
-BeginCmp
-TimeStamp = /54C4E9F4/54C5081F;
-Reference = U6;
-ValeurCmp = L3G4200D;
-IdModule  = PQFN:PQFN65P400X400-16N-EXTENDED;
 EndCmp
 
 EndListe
