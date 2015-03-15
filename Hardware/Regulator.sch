@@ -127,38 +127,6 @@ F 3 "" H 4050 3300 60  0000 C CNN
 	1    4050 3300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2300 2150 2300 2050
-Wire Wire Line
-	1650 2450 1650 2650
-Connection ~ 1150 2150
-Wire Wire Line
-	1150 2700 1450 2700
-Wire Wire Line
-	1450 2700 1450 2550
-Wire Wire Line
-	1450 2550 1850 2550
-Connection ~ 1650 2550
-Wire Wire Line
-	2250 2050 2250 2300
-Connection ~ 2250 2150
-Wire Wire Line
-	2250 2700 1850 2700
-Wire Wire Line
-	1850 2550 1850 2750
-Connection ~ 2300 2150
-Wire Wire Line
-	2950 2150 3050 2150
-Wire Wire Line
-	3050 2150 3050 2350
-Wire Wire Line
-	1850 2750 3050 2750
-Connection ~ 1850 2700
-Wire Wire Line
-	900  3400 900  2150
-Connection ~ 900  2150
-Wire Wire Line
-	1150 2050 1150 2300
 $Comp
 L Inductor L1
 U 1 1 55057106
@@ -210,17 +178,6 @@ F 3 "" H 2650 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
-U 1 1 550573D5
-P 3500 4350
-F 0 "C13" H 3550 4450 50  0000 L CNN
-F 1 "100uF" H 3550 4250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3538 4200 30  0001 C CNN
-F 3 "" H 3500 4350 60  0000 C CNN
-	1    3500 4350
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C4
 U 1 1 55057431
 P 1700 4350
@@ -237,7 +194,7 @@ U 1 1 55057ABF
 P 1550 3450
 F 0 "U3" H 1300 3700 60  0000 C CNN
 F 1 "LT1376IS8-5" H 1300 3800 60  0000 C CNN
-F 2 "SMD_Packages:SOIC-8-N" H 1550 3450 60  0001 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 1550 3450 60  0001 C CNN
 F 3 "" H 1550 3450 60  0000 C CNN
 	1    1550 3450
 	1    0    0    -1  
@@ -253,6 +210,71 @@ F 3 "" H 850 4350 60  0000 C CNN
 	1    850  4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L GND #PWR022
+U 1 1 55058B68
+P 2100 4600
+F 0 "#PWR022" H 2100 4600 30  0001 C CNN
+F 1 "GND" H 2100 4530 30  0001 C CNN
+F 2 "" H 2100 4600 60  0000 C CNN
+F 3 "" H 2100 4600 60  0000 C CNN
+	1    2100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L MIC5209-3.3 U2
+U 1 1 55060157
+P 1650 2050
+F 0 "U2" H 1900 1800 60  0000 C CNN
+F 1 "MIC5209-3.3" H 1650 2250 60  0000 C CNN
+F 2 "SMD_Packages:SOT-223" H 1600 2400 60  0000 C CNN
+F 3 "" H 1650 2050 60  0000 C CNN
+	1    1650 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 550573D5
+P 3500 4350
+F 0 "C13" H 3550 4450 50  0000 L CNN
+F 1 "100uF" H 3550 4250 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3538 4200 30  0001 C CNN
+F 3 "" H 3500 4350 60  0000 C CNN
+	1    3500 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 2150 2300 2050
+Wire Wire Line
+	1650 2450 1650 2650
+Connection ~ 1150 2150
+Wire Wire Line
+	1150 2700 1450 2700
+Wire Wire Line
+	1450 2700 1450 2550
+Wire Wire Line
+	1450 2550 1850 2550
+Connection ~ 1650 2550
+Wire Wire Line
+	2250 2050 2250 2300
+Connection ~ 2250 2150
+Wire Wire Line
+	2250 2700 1850 2700
+Wire Wire Line
+	1850 2550 1850 2750
+Connection ~ 2300 2150
+Wire Wire Line
+	2950 2150 3050 2150
+Wire Wire Line
+	3050 2150 3050 2350
+Wire Wire Line
+	1850 2750 3050 2750
+Connection ~ 1850 2700
+Wire Wire Line
+	900  3400 900  2150
+Connection ~ 900  2150
+Wire Wire Line
+	1150 2050 1150 2300
 Wire Wire Line
 	3000 3100 1800 3100
 Wire Wire Line
@@ -305,34 +327,12 @@ Connection ~ 900  3400
 Wire Wire Line
 	1000 3700 850  3700
 Connection ~ 850  3700
-$Comp
-L GND #PWR022
-U 1 1 55058B68
-P 2100 4600
-F 0 "#PWR022" H 2100 4600 30  0001 C CNN
-F 1 "GND" H 2100 4530 30  0001 C CNN
-F 2 "" H 2100 4600 60  0000 C CNN
-F 3 "" H 2100 4600 60  0000 C CNN
-	1    2100 4600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2100 4550 2100 4600
 Connection ~ 2100 4550
 Wire Wire Line
 	850  4550 3500 4550
 Connection ~ 1700 4550
-$Comp
-L MIC5209-3.3 U2
-U 1 1 55060157
-P 1650 2050
-F 0 "U2" H 1900 1800 60  0000 C CNN
-F 1 "MIC5209-3.3" H 1650 2250 60  0000 C CNN
-F 2 "SMD_Packages:SOT-223" H 1600 2400 60  0000 C CNN
-F 3 "" H 1650 2050 60  0000 C CNN
-	1    1650 2050
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	800  2150 1150 2150
 Wire Wire Line
@@ -342,6 +342,5 @@ Wire Wire Line
 Wire Wire Line
 	2250 2150 2450 2150
 Wire Wire Line
-	1600 2450 1700 2450
-Connection ~ 1650 2450
+	1600 2450 1650 2450
 $EndSCHEMATC

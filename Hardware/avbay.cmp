@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/15/2015 5:23:50 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 3/15/2015 5:47:12 PM
 
 BeginCmp
 TimeStamp = /54C487C6;
@@ -88,7 +88,7 @@ BeginCmp
 TimeStamp = /54375BB6/550573D5;
 Reference = C13;
 ValeurCmp = 100uF;
-IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+IdModule  = Local:SMD_CAP;
 EndCmp
 
 BeginCmp
