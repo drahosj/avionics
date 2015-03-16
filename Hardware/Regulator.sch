@@ -238,7 +238,7 @@ U 1 1 550573D5
 P 3500 4350
 F 0 "C13" H 3550 4450 50  0000 L CNN
 F 1 "100uF" H 3550 4250 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3538 4200 30  0001 C CNN
+F 2 "Local:SMD_CAP" H 3538 4200 30  0001 C CNN
 F 3 "" H 3500 4350 60  0000 C CNN
 	1    3500 4350
 	1    0    0    -1  
@@ -247,7 +247,6 @@ Wire Wire Line
 	2300 2150 2300 2050
 Wire Wire Line
 	1650 2450 1650 2650
-Connection ~ 1150 2150
 Wire Wire Line
 	1150 2700 1450 2700
 Wire Wire Line
@@ -334,13 +333,24 @@ Wire Wire Line
 	850  4550 3500 4550
 Connection ~ 1700 4550
 Wire Wire Line
-	800  2150 1150 2150
-Wire Wire Line
-	1150 2050 1200 2050
+	950  2050 1200 2050
 Wire Wire Line
 	2100 2050 2250 2050
 Wire Wire Line
 	2250 2150 2450 2150
 Wire Wire Line
-	1600 2450 1650 2450
+	1600 2450 1700 2450
+Wire Wire Line
+	900  2150 800  2150
+Wire Wire Line
+	950  2050 950  2850
+Wire Wire Line
+	950  2850 3700 2850
+Wire Wire Line
+	3700 2850 3700 3500
+Wire Wire Line
+	3700 3500 4050 3500
+Connection ~ 4050 3500
+Connection ~ 1150 2050
+Connection ~ 1650 2450
 $EndSCHEMATC
