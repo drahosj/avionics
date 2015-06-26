@@ -1,0 +1,61 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AO4842
+D BSS138, 30V Vds, 7.7A Id, Dual N-Channel MOSFET
+K N-Channel MOSFET Logic Level
+F http://aosmd.com/res/data_sheets/AO4842.pdf
+$ENDCMP
+#
+$CMP BSS138DW
+D BSS138, 50V Vds, 0.22A Id, Dual N-Channel MOSFET
+K N-Channel MOSFET Logic Level
+F http://www.diodes.com/datasheets/ds30203.pdf
+$ENDCMP
+#
+$CMP DMN2041LSD
+D BSS138, 30V Vds, 7.7A Id, Dual N-Channel MOSFET
+K N-Channel MOSFET Logic Level
+F http://www.diodes.com/datasheets/ds31964.pdf
+$ENDCMP
+#
+$CMP HMC5883L
+D 3-Axis Digital Compass IC
+K COMPASS MAGNET
+F http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf
+$ENDCMP
+#
+$CMP L3G4200D
+D Triple-axis gyroscope module
+K GYRO GYROSCOPE
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00265057.pdf
+$ENDCMP
+#
+$CMP MS5611
+D Barometric Pressure Sensor
+K ALTIMETER BAROMETER PRESSURE ALTITUDE
+F http://www.amsys.info/sheets/amsys.en.ms5611_01ba03.pdf
+$ENDCMP
+#
+$CMP TERM_BLOCK_2.54MM_12POS
+D Symbole general de connecteur
+K CONN SCREW
+F http://www.on-shore.com/sites/default/files/manuals/ostvnxxa150.pdf
+$ENDCMP
+#
+$CMP TERM_BLOCK_2.54MM_2POS
+D 2 Position Screw Terminal
+K CONN SCREW
+F http://www.on-shore.com/sites/default/files/manuals/ostvnxxa150.pdf
+$ENDCMP
+#
+$CMP TERM_BLOCK_2.54MM_5POS
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+$CMP TERM_BLOCK_2.54MM_8POS
+D Symbole general de connecteur
+K CONN
+$ENDCMP
+#
+#End Doc Library

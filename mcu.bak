@@ -37,9 +37,13 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
+<<<<<<< HEAD:mcu.sch
 Sheet 2 2
+=======
+Sheet 2 4
+>>>>>>> origin/master:mcu.bak
 Title "MCU"
-Date "20 oct 2014"
+Date "4 dec 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,7 +52,11 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
+<<<<<<< HEAD:mcu.sch
 L 3V3 #PWR05
+=======
+L 3V3 #PWR08
+>>>>>>> origin/master:mcu.bak
 U 1 1 542CDA8F
 P 3800 3600
 F 0 "#PWR05" H 3800 3700 40  0001 C CNN
@@ -115,6 +123,7 @@ NRST
 Text HLabel 8000 3450 2    60   Input ~ 0
 NRST
 $Comp
+<<<<<<< HEAD:mcu.sch
 L CRYSTAL X1
 U 1 1 5430D2CD
 P 3150 1850
@@ -126,17 +135,24 @@ F 3 "~" H 3150 1850 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
+=======
+>>>>>>> origin/master:mcu.bak
 L CRYSTAL X2
 U 1 1 5430D2DC
 P 3150 2800
 F 0 "X2" H 3150 2950 60  0000 C CNN
 F 1 "8MHz" H 3150 2650 60  0000 C CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "Discret:HC-49V" H 3150 2800 60  0000 C CNN
+=======
+F 2 "Crystals:Crystal_HC49-U_Vertical" H 3150 2800 60  0001 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 3150 2800 60  0000 C CNN
 	1    3150 2800
 	0    1    1    0   
 $EndComp
 $Comp
+<<<<<<< HEAD:mcu.sch
 L C C2
 U 1 1 5430D3C7
 P 2750 1500
@@ -160,22 +176,33 @@ F 3 "~" H 2750 2200 60  0000 C CNN
 $EndComp
 $Comp
 L C C4
+=======
+L C C3
+>>>>>>> origin/master:mcu.bak
 U 1 1 5430D41B
 P 2750 2450
-F 0 "C4" H 2750 2550 40  0000 L CNN
+F 0 "C3" H 2750 2550 40  0000 L CNN
 F 1 "20pF" H 2756 2365 40  0000 L CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "SMD_Packages:SMD-0805" H 2788 2300 30  0000 C CNN
+=======
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 2300 30  0000 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 2750 2450 60  0000 C CNN
 	1    2750 2450
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C5
+L C C4
 U 1 1 5430D441
 P 2750 3150
-F 0 "C5" H 2750 3250 40  0000 L CNN
+F 0 "C4" H 2750 3250 40  0000 L CNN
 F 1 "20pF" H 2756 3065 40  0000 L CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "SMD_Packages:SMD-0805" H 2788 3000 30  0000 C CNN
+=======
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 3000 30  0000 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 2750 3150 60  0000 C CNN
 	1    2750 3150
 	0    -1   -1   0   
@@ -194,23 +221,31 @@ $EndComp
 Text Label 5250 1100 2    60   ~ 0
 NRST
 $Comp
-L SW_PUSH SW1
+L SW_PUSH SW3
 U 1 1 5430D74C
 P 5750 1100
-F 0 "SW1" H 5900 1210 50  0000 C CNN
+F 0 "SW3" H 5900 1210 50  0000 C CNN
 F 1 "SW_PUSH" H 5750 1020 50  0000 C CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "Discret:SW_PUSH_SMALL" H 5750 1100 60  0000 C CNN
+=======
+F 2 "Discret:SW_PUSH_SMALL" H 5750 1100 60  0001 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 5750 1100 60  0000 C CNN
 	1    5750 1100
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L C C7
 U 1 1 5430D75B
 P 5750 1400
-F 0 "C9" H 5750 1500 40  0000 L CNN
+F 0 "C7" H 5750 1500 40  0000 L CNN
 F 1 "100nF" H 5756 1315 40  0000 L CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "SMD_Packages:SMD-0805" H 5788 1250 30  0000 C CNN
+=======
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5788 1250 30  0000 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 5750 1400 60  0000 C CNN
 	1    5750 1400
 	0    -1   -1   0   
@@ -227,45 +262,109 @@ F 3 "" H 6150 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD:mcu.sch
 L C C8
+=======
+L 3V3 #PWR015
+U 1 1 5430DC01
+P 7600 4350
+F 0 "#PWR015" H 7600 4450 40  0001 C CNN
+F 1 "3V3" H 7600 4475 40  0000 C CNN
+F 2 "" H 7600 4350 60  0000 C CNN
+F 3 "" H 7600 4350 60  0000 C CNN
+	1    7600 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR016
+U 1 1 5430DC07
+P 9000 4500
+F 0 "#PWR016" H 9000 4500 30  0001 C CNN
+F 1 "GND" H 9000 4430 30  0001 C CNN
+F 2 "" H 9000 4500 60  0000 C CNN
+F 3 "" H 9000 4500 60  0000 C CNN
+	1    9000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP1
+U 1 1 5430DE18
+P 7950 4450
+F 0 "JP1" H 7950 4600 60  0000 C CNN
+F 1 "JUMPER" H 7950 4370 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0805" H 7950 4450 60  0000 C CNN
+F 3 "~" H 7950 4450 60  0000 C CNN
+	1    7950 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 5430DF6F
+P 8600 4450
+F 0 "R5" V 8680 4450 40  0000 C CNN
+F 1 "10K" V 8607 4451 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8530 4450 30  0001 C CNN
+F 3 "~" H 8600 4450 30  0000 C CNN
+	1    8600 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C6
+>>>>>>> origin/master:mcu.bak
 U 1 1 5430E0A1
 P 5500 5750
-F 0 "C8" H 5500 5850 40  0000 L CNN
+F 0 "C6" H 5500 5850 40  0000 L CNN
 F 1 "100nF" H 5506 5665 40  0000 L CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "SMD_Packages:SMD-0805" H 5538 5600 30  0000 C CNN
+=======
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5538 5600 30  0000 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 5500 5750 60  0000 C CNN
 	1    5500 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L C C8
 U 1 1 5430E0BA
 P 5800 5750
-F 0 "C10" H 5800 5850 40  0000 L CNN
+F 0 "C8" H 5800 5850 40  0000 L CNN
 F 1 "100nF" H 5806 5665 40  0000 L CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "SMD_Packages:SMD-0805" H 5838 5600 30  0000 C CNN
+=======
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5838 5600 30  0000 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 5800 5750 60  0000 C CNN
 	1    5800 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C11
+L C C9
 U 1 1 5430E0C0
 P 6100 5750
-F 0 "C11" H 6100 5850 40  0000 L CNN
+F 0 "C9" H 6100 5850 40  0000 L CNN
 F 1 "100nF" H 6106 5665 40  0000 L CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "SMD_Packages:SMD-0805" H 6138 5600 30  0000 C CNN
+=======
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6138 5600 30  0000 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 6100 5750 60  0000 C CNN
 	1    6100 5750
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L C C10
 U 1 1 5430E0C6
 P 6400 5750
-F 0 "C12" H 6400 5850 40  0000 L CNN
+F 0 "C10" H 6400 5850 40  0000 L CNN
 F 1 "100nF" H 6406 5665 40  0000 L CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "SMD_Packages:SMD-0805" H 6438 5600 30  0000 C CNN
+=======
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 6438 5600 30  0000 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 6400 5750 60  0000 C CNN
 	1    6400 5750
 	1    0    0    -1  
@@ -293,12 +392,16 @@ F 3 "" H 5300 6050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C6
+L C C5
 U 1 1 5430E5B4
 P 3800 4450
-F 0 "C6" H 3800 4550 40  0000 L CNN
+F 0 "C5" H 3800 4550 40  0000 L CNN
 F 1 "4.7uF" H 3806 4365 40  0000 L CNN
+<<<<<<< HEAD:mcu.sch
 F 2 "SMD_Packages:SMD-0805" H 3838 4300 30  0000 C CNN
+=======
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3838 4300 30  0000 C CNN
+>>>>>>> origin/master:mcu.bak
 F 3 "~" H 3800 4450 60  0000 C CNN
 	1    3800 4450
 	0    -1   -1   0   
@@ -549,13 +652,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 3350 3650 3350
 Wire Wire Line
-	2500 1500 2500 3250
-Wire Wire Line
-	2500 1500 2550 1500
-Wire Wire Line
-	2550 2200 2500 2200
-Connection ~ 2500 2200
-Wire Wire Line
 	2550 2450 2500 2450
 Connection ~ 2500 2450
 Wire Wire Line
@@ -569,20 +665,6 @@ Wire Wire Line
 	3150 2300 3150 2500
 Wire Wire Line
 	3150 2450 2950 2450
-Wire Wire Line
-	2950 2200 4450 2200
-Wire Wire Line
-	3150 2200 3150 2150
-Wire Wire Line
-	3150 1550 3150 1500
-Wire Wire Line
-	2950 1500 3500 1500
-Wire Wire Line
-	4450 2100 3500 2100
-Wire Wire Line
-	3500 2100 3500 1500
-Connection ~ 3150 1500
-Connection ~ 3150 2200
 Wire Wire Line
 	4450 2300 3150 2300
 Connection ~ 3150 2450
@@ -704,7 +786,36 @@ Wire Wire Line
 Wire Wire Line
 	7050 4700 8450 4700
 Wire Wire Line
+<<<<<<< HEAD:mcu.sch
 	7050 4000 8450 4000
+=======
+	7050 4500 7150 4500
+Text HLabel 7150 4200 2    60   Input ~ 0
+GPIO4
+Text HLabel 7150 4300 2    60   Input ~ 0
+GPIO5
+Text HLabel 7150 4400 2    60   Input ~ 0
+GPIO6
+Text HLabel 7150 4500 2    60   Input ~ 0
+GPIO7
+NoConn ~ 7050 2700
+NoConn ~ 7050 2800
+NoConn ~ 7050 3000
+NoConn ~ 7050 3100
+NoConn ~ 7050 3700
+NoConn ~ 7050 3800
+NoConn ~ 7050 3900
+NoConn ~ 7050 4000
+NoConn ~ 7050 4700
+NoConn ~ 7050 4800
+NoConn ~ 4450 4700
+NoConn ~ 4450 4600
+NoConn ~ 4450 4500
+NoConn ~ 4450 4400
+NoConn ~ 4450 3300
+NoConn ~ 4450 3200
+NoConn ~ 4450 2000
+>>>>>>> origin/master:mcu.bak
 Wire Wire Line
 	7050 3900 8450 3900
 Wire Wire Line
@@ -853,6 +964,7 @@ F 3 "" H 8650 4250 60  0000 C CNN
 	1    8650 4250
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD:mcu.sch
 Connection ~ 7300 3500
 Wire Wire Line
 	8450 3600 7450 3600
@@ -879,4 +991,37 @@ Connection ~ 4050 2300
 Wire Wire Line
 	4100 2150 4100 2400
 Connection ~ 4100 2400
+=======
+$Comp
+L STM32F411RE_LQFP64 U1
+U 1 1 542CD87C
+P 5850 3450
+F 0 "U1" H 5850 3450 60  0000 C CNN
+F 1 "STM32F411RE_LQFP64" H 5850 3550 60  0000 C CNN
+F 2 "Housings_QFP:TQFP-64_10x10mm_Pitch0.5mm" H 5850 3600 60  0001 C CNN
+F 3 "" H 5850 3600 60  0000 C CNN
+	1    5850 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 7050 1900 2    60   Input ~ 0
+SENSE1
+Text HLabel 7050 2000 2    60   Input ~ 0
+SENSE2
+Text HLabel 7050 2100 2    60   Input ~ 0
+SENSE3
+Text HLabel 7050 2200 2    60   Input ~ 0
+SENSE4
+Text HLabel 7050 2300 2    60   Input ~ 0
+TRIGGER1
+Text HLabel 7050 2400 2    60   Input ~ 0
+TRIGGER2
+Text HLabel 7050 2500 2    60   Input ~ 0
+TRIGGER3
+Text HLabel 7050 2600 2    60   Input ~ 0
+TRIGGER4
+Wire Wire Line
+	2500 3150 2500 2450
+NoConn ~ 4450 2100
+NoConn ~ 4450 2200
+>>>>>>> origin/master:mcu.bak
 $EndSCHEMATC

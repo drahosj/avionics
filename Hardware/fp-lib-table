@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name LQFP-Local)(type Legacy)(uri ${KIPRJMOD}/lqfp.mod)(options "")(descr ""))
+  (lib (name Ian)(type Legacy)(uri ${KIPRJMOD}/Footprints.mod)(options "")(descr ""))
+  (lib (name Local)(type KiCad)(uri "$(KIPRJMOD)/Modules.pretty")(options "")(descr ""))
+  (lib (name PQFN)(type KiCad)(uri "$(KIPRJMOD)/../../KiCadLib/Modules/PQFN.pretty")(options "")(descr ""))
+)
