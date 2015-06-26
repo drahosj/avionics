@@ -32,7 +32,6 @@ LIBS:valves
 LIBS:stm32
 LIBS:STM32-Additional
 LIBS:xbee
-LIBS:Passives
 LIBS:avbay-cache
 EELAYER 25 0
 EELAYER END
@@ -794,7 +793,7 @@ P 10500 5400
 F 0 "SP1" H 10400 5650 50  0000 C CNN
 F 1 "SPEAKER" H 10400 5150 50  0000 C CNN
 F 2 "Local:CBT-07427" H 10500 5400 60  0001 C CNN
-F 3 "" H 10500 5400 60  0000 C CNN
+F 3 "http://www.cui.com/product/resource/cbt-09427-smt.pdf" H 10500 5400 60  0000 C CNN
 	1    10500 5400
 	1    0    0    -1  
 $EndComp
