@@ -1,0 +1,10 @@
+gerber/
+*.gtl
+*.gbl
+*.gbs
+*.gbo
+*.gbr
+*.gtl
+*.gts
+*.gto
+_autosave*
