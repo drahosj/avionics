@@ -32,6 +32,7 @@ LIBS:valves
 LIBS:stm32
 LIBS:STM32-Additional
 LIBS:xbee
+LIBS:Passives
 LIBS:avbay-cache
 EELAYER 25 0
 EELAYER END
