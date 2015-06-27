@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 6/26/2015 11:52:53 PM
+Cmp-Mod V01 Created by Cvpcb (2015-01-16 BZR 5376)-product   date = 6/27/2015 12:13:59 AM
 
 BeginCmp
 TimeStamp = /54C487C6;
@@ -159,6 +159,13 @@ TimeStamp = /54C4C3F2;
 Reference = FB1;
 ValeurCmp = Ferrite;
 IdModule  = SMD_Packages:SMD-1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5430DB9E/558E636D;
+Reference = J1;
+ValeurCmp = MicroSD;
+IdModule  = Ian:MICRO_SD_HINGE_AMP;
 EndCmp
 
 BeginCmp

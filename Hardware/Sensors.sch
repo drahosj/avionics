@@ -33,6 +33,7 @@ LIBS:stm32
 LIBS:STM32-Additional
 LIBS:xbee
 LIBS:Passives
+LIBS:DataStorage
 LIBS:avbay-cache
 EELAYER 25 0
 EELAYER END
